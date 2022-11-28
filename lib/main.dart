@@ -4,6 +4,8 @@ void main() {
   runApp(const MyApp());
 }
 
+// YT Tutorial https://www.youtube.com/watch?v=CD1Y2DmL5JM&list=PL82uaKJraAILQVZ0PJQ__jEArFEoKCihr
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -18,8 +20,7 @@ class MyApp extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(
           items: const [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.settings), label: 'settings'),
+            BottomNavigationBarItem(icon: Icon(Icons.face), label: 'face'),
           ],
         ),
       ),
